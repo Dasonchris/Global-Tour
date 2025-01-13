@@ -211,7 +211,9 @@ section {
 }
 
 .hero .hero-right .hero-image2 .vector{
-  .lkkll
+  position: relative;
+  top: 1rem;
+  left: 5.9rem;
 }
 
 .hero-image1 .img1 {
