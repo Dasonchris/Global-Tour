@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Global Tour</title>
+    <link rel="icon" type="images/png" href="./images/Group.png" />
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+    />
+  </head>
+  <body>
+    <!-- header section starts from here  -->
+    <section class="header">
+      <div class="logo" id="logo">
+        <h3>Global Tour</h3>
+        <img src="./images/Group.png" alt="" />
+      </div>
+
+      <div class="sidebar">
+        <a href="#"
+          ><i class="fa-solid fa-xmark" onclick="hideSidebar()"></i
+        ></a>
+        <a href="#destination" class="hide">Destinations</a>
+        <a href="#stories" class="hide">Stories</a>
+        <a href="#highlights" class="hide">Highlights</a>
+        <a href="#contact" class="hide">Contact</a>
+        <a href="#about" class="hide">About</a>
+        <img src="./images/icons8-search-50.png" alt="" class="hide" />
+        <input
+          type="text"
+          name="search"
+          id=""
+          placeholder="Search"
+          class="hide"
+        />
+      </div>
+
+      <div class="nav">
+        <a href="#destination" class="navbar-item">Destinations</a>
+        <a href="#stories" class="navbar-item">Stories</a>
+        <a href="#highlights" class="navbar-item">Highlights</a>
+        <a href="#contact" class="navbar-item">Contact</a>
+        <a href="#about" class="navbar-item">About</a>
+      </div>
+
+      <div class="cta">
+        <div class="search">
+          <img src="./images/icons8-search-50.png" alt="" />
+          <input type="text" name="search" id="" placeholder="Search" />
+        </div>
+        <a href="#" class="cta-btn">Sign in</a>
+      </div>
+
+      <div
+        id="menu-btn"
+        class="fa-solid fa-bars"
+        class="sidebar"
+        onclick="showSidebar()"
+      ></div>
+    </section>
+    <!-- header section ends here  -->
+
+
+
+    <!-- hero section starts here  -->
+    <section class="hero">
+      <div class="hero-left">
+        <h1>
+          Discover <span class="span1">the World's Hidden</span>
+          <span class="span2">Wonders</span>
+        </h1>
+        <p>
+          Find mind blowing moments and hidden gems that ignite unforgettable
+          experiences. From rare encounters to remarkable destinations, We help
+          you uncover the spark that turns every trip into a cherished story
+        </p>
+        <a href="#" class="cta-btn">Plan your trip</a>
+      </div>
+
+      <div class="hero-right">
+        <div class="hero-image1">
+          <img
+            src="./images/pikaso_text-to-image_Candid-image-photography-natural-textures-highly-r (5) 1.png"
+            alt=""
+            class="img1"
+          />
+          <img
+            src="./images/pikaso_text-to-image_Candid-image-photography-natural-textures-highly-r (4) 1.png"
+            alt=""
+            class="img2"
+          />
+          <img src="./images/Vector 1.png" alt="" class="vector1" />
+        </div>
+
+        <div class="hero-image2">
+          <img src="./images/Vector 2.png" alt="" class="vector" />
+          <img
+            src="./images/pikaso_text-to-image_Candid-image-photography-natural-textures-highly-r (3) 2.png"
+            alt=""
+            class="img1"
+          />
+
+          <img
+            src="./images/pikaso_text-to-image_Candid-image-photography-natural-textures-highly-r (2) 1.png"
+            alt=""
+            class="img2"
+          />
+        </div>
+      </div>
+    </section>
+    <!-- hero section ends here  -->
+
+
+
+    <!-- destination starts from here  -->
+    <section class="title" id="destination">
+      <h1 class="title">Top <span>Destinations</span></h1>
+    </section>
+    <section class="destination-header">
+      <div class="nav-links">
+        <a href="#">Popular</a>
+        <a href="#">Places</a>
+        <a href="#">Groups</a>
+        <a href="#">Event</a>
+        <a href="#">Recreations</a>
+        <a href="#">Games</a>
+        <a href="#">More</a>
+      </div>
+
+      <div class="destination-nav-cta">
+        <a href="#" class="cta-btn">Explore all destinations</a>
+      </div>
+    </section>
+
+    <section class="contents">
+      <div class="content">
+        <img src="./images/Rectangle 7.png" alt="" />
+        <h3>Santorini</h3>
+        <p>Greece</p>
+      </div>
+
+      <div class="content">
+        <img src="./images/Rectangle 8.png" alt="" />
+        <h3>Burj Al Arab</h3>
+        <p>Dubia</p>
+      </div>
+
+      <div class="content">
+        <img src="./images/Rectangle 9.png" alt="" />
+        <h3>Golden Bridge Royal Hills</h3>
+        <p>Vietnam</p>
+      </div>
+
+      <div class="content">
+        <img src="./images/Rectangle 10 (1).png" alt="" />
+        <h3>Mount Nemrut</h3>
+        <p>Turkey</p>
+      </div>
+      <div class="swiper-pagination"></div>
+    </section>
+    <!-- destination ends here  -->
+
+
+
+    <!-- stories starts here  -->
+    <section class="stories" id="stories">
+      <div class="stories-top">
+        <h1 class="title">Latest <span>Stories</span></h1>
+        <a href="#" class="cta-btn">Read more articles</a>
+      </div>
+
+      <div class="stories-all">
+        <div class="stories-left">
+          <img src="./images/Rectangle 11.png" alt="" class="img1" />
+          <h4>Food and Drinks</h4>
+          <h3>
+            Los Angelos food & drinks guide: 10 things to try in Los Angelos,
+            California
+          </h3>
+          <h5>Aug 10, 2024 - 4 mins ago</h5>
+          <p>
+            It seems that in California, almost any problem can be solved with
+            combination of avocados, yoga and food.
+          </p>
+        </div>
+
+        <div class="stories-rights">
+          <div class="stories-right">
+            <img src="./images/Rectangle 13.png" alt="" />
+            <div class="stories-right-content">
+              <h4>Shopping</h4>
+              <h3>
+                15 South London Mariandes You'll Love: East Markets in South
+                London
+              </h3>
+              <h5>Aug 10, 2024 - 6mins ago</h5>
+            </div>
+          </div>
+
+          <div class="stories-right">
+            <img src="./images/Rectangle 14.png" alt="" />
+            <div class="stories-right-content">
+              <h4>Hotels</h4>
+              <h3>
+                10 incredible hotels around the world you can book with points
+                in 2024
+              </h3>
+              <h5>Aug 10, 2024 - 8mins ago</h5>
+            </div>
+          </div>
+
+          <div class="stories-right">
+            <img src="./images/Rectangle 15.png" alt="" />
+            <div class="stories-right-content">
+              <h4>Travel Budget</h4>
+              <h3>
+                Visiting Chicago on a Budget: Affordable Eats and Attraction
+                Deals
+              </h3>
+              <h5>Aug 02, 2024 - 8mins ago</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- stories ends here  -->
+
+    <!-- highlights starts from here  -->
+    <section class="highlights" id="highlights">
+      <div class="highlight-top">
+        <h1 class="title">Trekker's <span>Highlights</span></h1>
+      </div>
+
+      <div class="highlights-content">
+        <div class="highlights-left">
+          <div class="highlight-image">
+            <img src="./images/Ellipse 1.png" alt="" />
+            <div class="img-text">
+              <h4>Maria Angelica</h4>
+              <p>Adventurist</p>
+            </div>
+          </div>
+          <i class="fa-sharp fa-solid fa-star" style="color: #ae004d"></i>
+          <i class="fa-sharp fa-solid fa-star" style="color: #ae004d"></i>
+          <i class="fa-sharp fa-solid fa-star" style="color: #ae004d"></i>
+          <i class="fa-sharp fa-solid fa-star" style="color: #ae004d"></i>
+          <i class="fa-sharp fa-solid fa-star" style="color: #ae004d"></i>
+          <h3>An Unforgettable Journey Through Turkey</h3>
+          <p>
+            An unforgettable journey through Turkey is a mosaic of ancient
+            history, vibrant culture, and breathtaking landscapes. From the
+            surreal rock formations of Cappadocia to the timeless grandeur of
+            Istanbul's Hagia Sophia, every moment feels like stepping into a
+            living story. Exploring the thermal terraces of Pamukkale, savoring
+            the rich flavors of Turkish cuisine, and cruising along the
+            shimmering Bosphorus create memories as diverse and captivating as
+            the country itself. Turkey's warmth, charm, and beauty leave a
+            lasting impression on the soul.
+          </p>
+        </div>
+
+        <div class="highlights-right">
+          <img src="./images/Rectangle 16.png" alt="" />
+
+          <div class="video-container">
+            <video
+              controls
+              muted
+              width="190px"
+              height="200px"
+              src="./images/Pinterest-.mp4"
+            ></video>
+            <p>
+              ✈️ Discover hidden gems, top destinations - start your journey
+              today. 🌍
+            </p>
+            <a href="#" class="cta-btn">See more highlights</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- highlights ends here  -->
+
+
+
+    <!-- inspiration starts from here  -->
+
+    <section class="inspiration" id="contact">
+      <h1 class="title">Get Your Travel Inspiration Straight to Your Inbox</h1>
+      <div class="input-box">
+        <input type="email" placeholder="Email" />
+        <a href="#" class="cta-btn">Send</a>
+      </div>
+      <p>
+        ✈️ Discover hidden gems, top destinations, and exclusive deals—start
+        your journey today. 🌍
+      </p>
+    </section>
+    <!-- inspirations ends here  -->
+
+
+
+    <!-- footer section starts here  -->
+    <section class="footer" id="footer">
+      <div class="footer-">
+        <div class="footer-item1">
+          <div class="footer-logo">
+            <h3>Global Tour</h3>
+            <img src="./images/Group.png" alt="" />
+          </div>
+
+          <div class="socials">
+            <p>Follow Us On</p>
+            <div class="social-icons">
+              <a href="#"><img src="./images/icons8-linkedin-48.png" alt="" /></a>
+              <a href="#">
+                <img src="./images/icons8-facebook-48.png" alt=""
+              /></a>
+              <a href="#"><img src="./images/icons8-instagram-64.png" alt="" /></a>
+              <a href=""><img src="./images/icons8-whatsapp-100.png" alt="" /></a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="foot">
+        <div class="footer-item2">
+          <h2>About Us</h2>
+          <p>Location</p>
+          <p>Offices</p>
+          <p>Working days</p>
+          <p>Off-days</p>
+          <p>Staffs</p>
+          <p>Interns</p>
+          <p>Vacancies</p>
+          <p>Management</p>
+        </div>
+
+        <div class="footer-item2">
+          <h2>Services</h2>
+          <p>Event planning</p>
+          <p>Photography</p>
+          <p>Tourism</p>
+          <p>Recreation sites</p>
+          <p>Tour guide</p>
+          <p>Park tour</p>
+          <p>Walkways</p>
+          <p>Decorations</p>
+        </div>
+      </div>
+
+      <div class="footer-item2 move">
+        <h2>Packages</h2>
+        <p>Prices</p>
+        <p>Listings</p>
+        <p>Premium</p>
+        <p>Side attractions</p>
+        <p>Off-line packages</p>
+        <p>Home services</p>
+        <p>Studio motivated</p>
+        <p>Exclusive suite</p>
+      </div>
+    </section>
+
+    <!-- to top starts here  -->
+    <a href="#" class="to-top">
+      <i class="fas fa-chevron-up"></i>
+    </a>
+
+    <!-- to top ends here  -->
+
+    <section class="footer-bottom">
+      <h3>@copyright 24</h3>
+    </section>
+    <!-- footer section end here  -->
+
+    <script src="./script.js"></script>
+  </body>
+</html>
